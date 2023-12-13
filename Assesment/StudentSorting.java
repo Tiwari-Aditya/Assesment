@@ -29,10 +29,10 @@ public class StudentSorting {
         List<Student> students = new ArrayList<>();
 
         
-        students.add(new Student("John", 75.50, "BFS"));
-        students.add(new Student("Alice", 60.75, "BFS"));
-        students.add(new Student("Bob", 80.25, "ECS"));
-        students.add(new Student("Charlie", 55.90, "ECS"));
+        students.add(new Student("Abhishek", 75.50, "BFS"));
+        students.add(new Student("Ankit", 60.75, "BFS"));
+        students.add(new Student("Aman", 80.25, "ECS"));
+        students.add(new Student("Rishi", 55.90, "ECS"));
 
         
         Comparator<Student> byPercentage = new Comparator<Student>() {
